@@ -5,3 +5,42 @@
   src: url(Lovelo-Black.woff2);
 }
 
+.pfooter {
+  background-color: #404040;
+  color: white;
+  font-size:16pt;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.active{
+  color:black; !important
+/*   background-color:#00B4D8; */
+}
+
+/* li:hover{
+  background-color:#90E0EF;
+} */
+
+nav a:not(.navbar-brand) {
+  border-bottom-style: solid;
+  border-bottom-color: #00abcd;
+  border-bottom-width: 0px;
+  padding-bottom: 2px;
+  margin-bottom: 15px;
+  margin-top:15px;
+  padding-top:2px;
+  padding-left: 1px !important;
+  padding-right: 1px !important;
+  margin-left: 4px;
+  margin-right: 4px;
+/*   transition: border-bottom-width 0.2s, margin-bottom 0.2s;  MAKE SURE TO COME BACK TO THIS!!!!!!!!!!!!!!! */
+}
+
+nav a:not(.navbar-brand):hover {
+  margin-bottom: 10px;
+  border-bottom-width: 4px;
+  text-decoration: none;
+}

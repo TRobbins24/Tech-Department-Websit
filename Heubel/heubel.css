@@ -1,8 +1,40 @@
-h1 {
-  text-align: center;
+
+
+
+
+.carousel-main {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+    overflow-x: hidden;
+  overflow-y: hidden;
   
 }
 
+.carousel-img {
+  width: 50%;
+  height: 50%;
+  margin-left: -25%;
+    overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+button.carousel-control-next {
+    right: 20%;
+}
+
+
+button.carousel-control-prev{
+   left: 20%;
+}
+
+h1 {
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
 
 .center{
   padding: 10%;
@@ -27,6 +59,12 @@ h1 {
   color:white;
 }
 
+#eg{
+  background-image: url("images/eg.png");
+  background-size: cover;
+  height: 400px;
+  color:white;
+}
 
 .title1 {
  text-align: center;
@@ -90,5 +128,14 @@ h1 {
   text-decoration: none;
   border-radius: 5px;
   font-size: 24px;
+    overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.pfooter {
+  background-color: #404040;
+  color: white;
+    overflow-x: hidden;
+  overflow-y: hidden;
 }
 
