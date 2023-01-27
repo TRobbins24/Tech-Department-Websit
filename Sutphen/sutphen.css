@@ -126,10 +126,10 @@ nav {
   background-color: transparent;
   border-color: transparent !important;
   transition: background-color 0.3s;
-  overflow: hidden;
+/*   overflow: hidden; */
 }
 nav a {
-  font-size: 18px;
+  font-size: 17px;
   color: #ffc466  !important;
   font-family: 'Roboto';
   transition: color 0.3s;
@@ -140,10 +140,19 @@ nav a {
 nav .in {
   background-color: #fff;
 }
-.in ul, .collapsing ul {
+.in ul:not(.dropdown-menu), .collapsing ul:not(.dropdown-menu) {
   display: block !important;
 }
-@media (max-width: 1000px) and (min-width: 768px) {
+.navbar-default .navbar-nav a {
+  transition: background-color 0.1s;
+}
+.navbar-default .navbar-nav>.open>a {
+  background-color: #b57611 !important;
+}
+.architecture-site .navbar-default .navbar-nav>.open>a {
+  background-color: #96e7f7 !important;
+}
+@media (max-width: 1534px) and (min-width: 768px) {
   nav ul {
     display: none;
   }
